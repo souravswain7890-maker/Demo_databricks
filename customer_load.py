@@ -10,6 +10,7 @@ data = [
 
 df = spark.createDataFrame(data, ["id", "name", "country"])
 
-df.write.mode("overwrite").format("delta").save("/tmp/customer_data")
+df.show()
 
 print("Customer data loaded successfully")
+print("Modified from Databricks Free Edition")
