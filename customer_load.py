@@ -13,4 +13,4 @@ df = spark.createDataFrame(data, ["id", "name", "country"])
 df.show()
 
 print("Customer data loaded successfully")
-##print("Modified from Databricks Free Edition")
+print("Modified from Databricks Free Edition")
